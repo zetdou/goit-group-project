@@ -1,0 +1,9 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="icon-Vector-direction-right" viewBox="0 0 215 32"><path d="m188.87 5.457 10.482 7.128L0 12.591v5.577l198.103-.006-9.874 5.675 2.778 4.835 22.724-13.056L192.008.845l-3.137 4.612z"/></symbol>
+<symbol id="icon-Vector-direction-left" viewBox="0 0 215 32"><path d="m25.987 25.301-10.482-7.128 199.352-.006V12.59l-198.103.006 9.874-5.675-2.777-4.835L1.127 15.142 22.85 29.913l3.137-4.612z"/></symbol>
+<symbol id="icon-modal-close" viewBox="0 0 32 32"><path stroke-width="4.571" stroke-linecap="round" d="M29.714 2.286 2.285 29.715m27.429-.001z"/></symbol>
+<symbol id="mobile-menu-close" viewBox="0 0 32 32">
+<path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
+</symbol>
+<symbol id="icon-good" viewBox="0 0 32 32"><path fill="#3cbc81" style="fill:var(--color1, #3cbc81)" d="M0 16C0 7.162 7.162 0 16 0s16 7.162 16 16c0 8.837-7.163 16-16 16S0 24.837 0 16zm23.237-2.762c.681-.681.681-1.794 0-2.475s-1.794-.681-2.475 0l-6.763 6.762-2.763-2.762c-.681-.681-1.794-.681-2.475 0s-.681 1.794 0 2.475l4 4a1.755 1.755 0 0 0 2.475 0l8-8z"/></symbol>
+</defs></svg>
