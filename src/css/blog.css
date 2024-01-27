@@ -39,11 +39,12 @@ body {
 
 }
 
+/* Blog */
 .blog-container {
     width: 320px;
     display: flex;
     flex-direction: column;
-    margin: 60px auto 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 .blog-section-title-container {
@@ -60,7 +61,6 @@ body {
     font-weight: 700;
     line-height: normal;
     padding-right: 14px;
-
 }
 
 .blog-line {
@@ -268,14 +268,19 @@ body {
 }
 
 /* -------Modal */
-
-@media screen and (max-width: 427px) {}
-
 @media screen and (min-width: 768px) {
     .blog-container {
         min-width: 768px;
     }
 
+    .blog-section-title-container {
+        gap: 16px;
+    }
+
+    .blog-section-title {
+        font-size: 44px;
+    }
+    
     .blog-list {
         margin-bottom: 8px;
     }
