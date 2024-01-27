@@ -13,4 +13,5 @@ body {
     font-family: "Montsterrat", sans-serif;
   }
 
-    @import url("../styles/partials/_blog.scss");
+  @import url(./partials/about.scss);
+  @import url("../styles/partials/_blog.scss");
