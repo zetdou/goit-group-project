@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="../styles/partials/blog.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -133,9 +133,9 @@
       </section>
     </main>
     <footer></footer>
-    <div class="backdrop is-hidden blog-modal-text" data-modal>
-      <div class="modal">
-        <button class="close-btn" type="button" data-modal-close>
+    <div class="blog-backdrop is-hidden blog-modal-text" data-modal>
+      <div class="blog-modal">
+        <button class="blog-close-btn" type="button" data-modal-close>
           <svg class="icon-modal-close" width="18" height="18">
             <use href="../images/Blog/icons.svg#mobile-menu-close"></use>
           </svg>
@@ -148,7 +148,7 @@
         <form>
           <div class="blog-modal-wrapper">
             <label class="blog-modal-label" for="user-name">Name</label>
-            <div class="modal-icon-wrapper">
+            <div class="">
               <input
                 class="blog-modal-input"
                 type="text"
@@ -157,14 +157,11 @@
                 placeholder="Your name"
                 required
               />
-              <svg class="modal-icon" width="18" height="24">
-                <use href="../images/icons.svg#icon-person"></use>
-              </svg>
             </div>
           </div>
           <div class="blog-modal-wrapper">
             <label class="blog-modal-label" for="user-email">Email</label>
-            <div class="modal-icon-wrapper">
+            <div class="">
               <input
                 class="blog-modal-input"
                 type="email"
@@ -175,7 +172,7 @@
               />
             </div>
           </div>
-          <button class="modal-button-submit" type="submit">Send</button>
+          <button class="blog-modal-button-submit" type="submit">Send</button>
         </form>
       </div>
     </div>
