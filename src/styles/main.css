@@ -10,3 +10,5 @@ ul, ol {
 body {
     font-family: "Montsterrat", sans-serif;
   }
+
+  @import url(./partials/footer.scss);
