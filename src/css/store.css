@@ -39,6 +39,7 @@
   align-items: center;
   gap: 16px;
   width: 288px;
+  margin: 0 auto;
 }
 
 .store-item-header {
