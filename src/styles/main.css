@@ -24,4 +24,4 @@ body {
   @import url("../styles/partials/_blog.scss");
   @import url(./partials/footer.scss);
   @import url("../styles/partials/_blog.scss");
-  @import url(./partials/modal-menu-phone.css);
+  @import url(./partials/modal-menu-phone.scss);
