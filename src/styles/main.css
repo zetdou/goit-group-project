@@ -15,11 +15,6 @@ body {
 
   @import url(./partials/about.scss);
   @import url("../styles/partials/_blog.scss");
-  @import url(./partials/footer.scss);
-<<<<<<< Updated upstream
-=======
-  @import url(./partials/footer.scss);
->>>>>>> Stashed changes
   @import url(./partials/hero.scss);
   @import url("../styles/partials/_blog.scss");
   @import url("../styles/partials/_blog.scss");
