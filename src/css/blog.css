@@ -5,11 +5,18 @@ button {
 }
 
 /* Blog */
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 0 16px;
+    margin: 0 auto;
+      }
+
 .blog-container {
-    width: 320px;
+    max-width: 480px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 .blog-section-title-container {
@@ -25,7 +32,6 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 32px;
 }
 
 .blog-line {
@@ -38,8 +44,9 @@ button {
 /* Pictures */
 .blog-list {
     display: flex;
-    justify-content: space-between;
-
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 16px;
     margin-top: 32px;
     margin-bottom: 4px;
     /* width: calc(100% - 25px / 2); */

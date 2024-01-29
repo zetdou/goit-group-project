@@ -14,7 +14,7 @@ button {
       }
 
 .delivery-container {
-    width: 320px;
+    max-width: 480px;
     display: flex;
     flex-direction: column;
     color: #000;
