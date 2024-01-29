@@ -1,3 +1,3 @@
 import './styles/main.css';
-import '/js/mobile-menu'
+import 'src/js/mobile-menu.js'
 
