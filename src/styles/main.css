@@ -13,6 +13,15 @@ body {
     font-family: "Montsterrat", sans-serif;
   }
 
+<<<<<<< Updated upstream
   @import url(./partials/about.scss);
   @import url("../styles/partials/_blog.scss");
   @import url(./partials/footer.scss);
+=======
+
+  @import url(./partials/footer.scss);
+  @import url(./partials/hero.scss);
+  @import url("../styles/partials/_blog.scss");
+  @import url("../styles/partials/_blog.scss");
+  @import url(./partials/modal-menu-phone.scss);
+>>>>>>> Stashed changes
