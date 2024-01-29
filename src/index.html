@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <include src="./partials/header.html"></include>
-  </header>
-  <main>
-    <!-- W taki sposob dodajemy fragmenty w główny HTML-plik strony. -->
-    <include src="./partials/hero.html"></include>
-    <include src="./partials/about.html"></include>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
     <include src="./partials/store.html"></include>
-    <include src="./partials/delivery.html"></include>
+    <include src="./partials/example.html"></include>
+    <include src="./partials/about.html"></include>
     <include src="./partials/blog.html"></include>
-  </main>
-  <footer>
-    <include src="../partials/footer.html"></include>
-    <include src="./images/icons.svg"></include>
-  </footer>
-  <include src="./partials/blog-modal.html"></include>
-  <include src="./partials/modal.menu.html"></include>
-  <!-- Skrypty są na samym dole kodu. One już mają w sobie podłączony plik SAAS. -->
-  <script src="./index.js" type="module"></script>
-  <script src="./js/modal.js" type="module"></script>
-  <script src="./js/mobile-menu.js"></script>
-</body>
+    <includa src="./partials/footer.html"></includa>
+    <header>
+      <include src="./partials/header.html"></include>
+    </header>
+    <main>
+      <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
+      <include src="./partials/hero.html"></include>
+      <include src="./partials/about.html"></include>
+      <include src="./partials/store.html"></include>
+      <include src="./partials/delivery.html"></include>
+      <include src="./partials/blog.html"></include>
+    </main>
+    <footer>
+      
+    </footer>
+    <include src="./partials/blog-modal.html"></include>
+    <include src="./partials/modal.menu.html"></include>
+    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
+    <script src="./index.js" type="module"></script>
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
