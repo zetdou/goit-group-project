@@ -5,15 +5,8 @@ button {
 }
 
 /* Delivery */
-
-.container {
-    width: 100%;
-    max-width: 480px;
-    padding: 0 16px;
-    margin: 0 auto;
-      }
-
 .delivery-container {
+
     max-width: 480px;
     display: flex;
     flex-direction: column;
@@ -40,26 +33,28 @@ button {
     width: 100%;
     height: 1px;
     background: #000;
-    margin-right:16px;
+    margin-right: 16px;
 }
 
 /* Delivery-List */
-.delivery-list{
+.delivery-list {
     display: flex;
     flex-direction: column;
     gap: 14px;
 }
+
 .delivery-item {
     display: flex;
     align-items: center;
     gap: 8px;
 }
-.delivery-item-circle{
+
+.delivery-item-circle {
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 40px;
-    min-height:40px;
+    min-height: 40px;
     max-width: 40px;
     max-height: 40px;
     border: 1px solid #000;
@@ -80,7 +75,9 @@ button {
     margin-bottom: 60px;
     width: 100%;
     height: 135px;
+    background-size: auto auto;
     background: url('../images/Delivery/backgroundDelivery-mobile@1x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
+
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -92,107 +89,112 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-          }
+   
+
+
+   
 
 
 .delivery-container {
+
         min-width: 768px;
         margin: 100px auto 100px auto;
     }
 
-.delivery-section-title-container {
+    .delivery-section-title-container {
         gap: 14px;
         margin-bottom: 60px;
     }
-.delivery-section-title {
+
+    .delivery-section-title {
         font-size: 44px;
     }
-        
-.delivery-list {   
+
+    .delivery-list {
         gap: 20px;
     }
-.delivery-item {
-    gap: 20px;
-}
 
-.delivery-item-circle {
-    min-width: 64px;
-    min-height: 64px;
-    font-size: 26px;
-}
-
-.delivery-item-p {
-    font-size: 24px;
-}
-
-.delivery-background {
-    margin-top: 40px;
-    margin-bottom: 60px;
-    width: 768px;
-    height: 264px;
-    background: url('../images/Delivery/backgroundDelivery-tablet@1x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
-}
-
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .delivery-background {
-        background: url('../images/Delivery/backgroundDelivery-tablet@2x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
+    .delivery-item {
+        gap: 20px;
     }
+
+    .delivery-item-circle {
+        min-width: 64px;
+        min-height: 64px;
+        font-size: 26px;
+    }
+
+    .delivery-item-p {
+        font-size: 24px;
+    }
+
+    .delivery-background {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        width: 100%;
+        height: 264px;
+        background: url('../images/Delivery/backgroundDelivery-tablet@1x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .delivery-background {
+            background: url('../images/Delivery/backgroundDelivery-tablet@2x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
+        }
+    }
+
 }
-    
-}
+
 @media screen and (min-width: 1280px) {
-    
-.container {
-        max-width: 768px;
-          }
 
 
-.delivery-section-title-container {
-    gap: 16px;
-    margin-bottom: 80px;
-}
 
-.delivery-section-title {
-    font-size: 44px;
-}
-
-.delivery-list {
-    gap: 32px;
-    margin-left: 96px;
-    margin-right: 96px;
-}
-
-.delivery-item {
-    gap: 56px;
-}
-
-.delivery-item-circle {
-    min-width: 64px;
-    min-height: 64px;
-    font-size: 26px;
-}
-
-.delivery-item-p {
-    font-size: 32px;
-}
-
-.delivery-background {
-    margin-top: 60px;
-    margin-bottom: 100px;
-    width: 1280px;
-    height: 391px;
-    background: url('../images/Delivery/backgroundDelivery-desktop@1x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
-}
-
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .delivery-background {
-        background: url('../images/Delivery/backgroundDelivery-desktop@2x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
+    .delivery-section-title-container {
+        gap: 16px;
+        margin-bottom: 80px;
     }
-}
+
+    .delivery-section-title {
+        font-size: 44px;
+    }
+
+    .delivery-list {
+        gap: 32px;
+        margin-left: 96px;
+        margin-right: 96px;
+    }
+
+    .delivery-item {
+        gap: 56px;
+    }
+
+    .delivery-item-circle {
+        min-width: 64px;
+        min-height: 64px;
+        font-size: 26px;
+    }
+
+    .delivery-item-p {
+        font-size: 32px;
+    }
+
+    .delivery-background {
+        margin-top: 60px;
+        margin-bottom: 100px;
+        width: 1280px;
+        height: 391px;
+        background: url('../images/Delivery/backgroundDelivery-desktop@1x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .delivery-background {
+            background: url('../images/Delivery/backgroundDelivery-desktop@2x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
+
+        }
+
+    }
 }
