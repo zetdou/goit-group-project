@@ -1,5 +1,3 @@
-
-
 * {
     padding: 0;
     margin: 0;
@@ -9,9 +7,11 @@ ul, ol {
     list-style: none;
   }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 body {
     font-family: "Montsterrat", sans-serif;
   }
-
-  @import url(./partials/about.scss);
-  @import url("../styles/partials/_blog.scss");
