@@ -1,7 +1,6 @@
 
-<<<<<<< Updated upstream
 
-/*
+
 
 * {
     padding: 0;
@@ -20,10 +19,9 @@ body {
 
 
   @import url(./partials/footer.scss);
-  @import url(./partials/hero.scss)
+  @import url(./partials/hero.scss);
   @import url(./partials/about.scss);
   @import url("../styles/partials/_blog.scss");
   @import url(./partials/footer.scss);
-  @import url("../styles/partials/_blog.scss"); */
-=======
->>>>>>> Stashed changes
+  @import url(./partials/modal-menu-phone.scss);
+

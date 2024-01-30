@@ -1,11 +1,12 @@
 
+
 .hero-div {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .hero-container {
-    position: relative;
+  position: relative;
   height: 350px;
   margin-top: 24px;
 }

@@ -1,5 +1,9 @@
-.footer {
-    background-color: var(--color-black);
+footer {
+    background-color: #000000;
+  }
+  a {
+    text-decoration: none;
+    font-style: normal;
   }
   .footer-div {
     display: flex;
@@ -19,6 +23,7 @@
     margin-bottom: 18px;
   }
   .navigation {
+    color: white;
    margin-bottom: 40px;
   }
   .navigation-li {
@@ -27,9 +32,13 @@
   .contacts {
     width: 140px;
     margin-bottom: 24px;
+    color: white;
   }
   .contacts-li {
     margin-bottom: 12px;
+  }
+  .opening {
+    color: white;
   }
   .text-footer {
     font-family: "Inter", sans serif;
