@@ -148,7 +148,10 @@ button {
 }
 
 @media screen and (min-width: 1280px) {
-
+.delivery-container {
+        min-width: 1280px;
+        margin: 100px auto 100px auto;
+    }
 
 
     .delivery-section-title-container {
