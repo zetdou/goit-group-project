@@ -11,4 +11,4 @@ body {
     font-family: "Montsterrat", sans-serif;
   }
   
-  @import url(./partials/header.scss);
+  @import url(./css/header.scss);
