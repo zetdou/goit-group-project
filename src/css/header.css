@@ -1,0 +1,158 @@
+/*  HEARER  */
+.header-div{
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 35px;
+    position: relative;
+}
+
+.header-call{
+    position: absolute;
+    right: 54px;
+    top: 2px;
+}
+
+.header-logo{
+    position: absolute;
+    left:16px;
+    top:0px;
+    width: 45px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.header-hamburger{
+    position: absolute;
+    right:16px;
+    top:0px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.svg-header{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.header-list{
+    display: none;
+}
+
+.header-icon-logo{
+    width: 45px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.header-icon-call{
+    width: 22px;
+    height: 22px;
+}
+
+.header-icon-burger{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width:768px) and (max-width:1280px) {
+
+    .header-div{
+        height: 57px;
+    }
+
+    .header-logo{
+        width: 72px;
+        height: 57px;
+        left: 24px;
+    }
+
+    .header-hamburger{
+        display: none;
+    }
+    .header-call{
+        right: 24px;
+        top:16px;
+    }
+
+    .header-list{
+        display: inline;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .header-link{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .header-icon-call{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .header-icon-logo{
+        width: 72px;
+        height: 57px;
+        flex-shrink: 0;
+    }
+}
+
+@media screen and (min-width:1280px) {
+
+    .header-div{
+        height: 57px;
+    }
+
+    .header-logo{
+        width: 72px;
+        height: 57px;
+        left: 24px;
+    }
+
+    .header-hamburger{
+        display: none;
+    }
+    .header-call{
+        right: 24px;
+        top:16px;
+    }
+
+    .header-list{
+        display: inline;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .header-link{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .header-icon-logo{
+        width: 72px;
+        height: 57px;
+        flex-shrink: 0;
+    }
+}

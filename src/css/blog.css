@@ -6,11 +6,11 @@ button {
 
 /* Blog */
 .blog-container {
-    width: 320px;
+    max-width: 480px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 0 16px;
+
 }
 
 .blog-section-title-container {
@@ -37,6 +37,7 @@ button {
 /* Pictures */
 .blog-list {
     display: flex;
+
     justify-content: center;
     gap: 16px;
     margin-top: 32px;

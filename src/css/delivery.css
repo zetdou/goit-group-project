@@ -6,9 +6,7 @@ button {
 
 /* Delivery */
 .delivery-container {
-    width: 320px;
-    padding: 0 16px;
-    margin: 0 auto;
+
     max-width: 480px;
     display: flex;
     flex-direction: column;
@@ -91,7 +89,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-    .delivery-container {
+.delivery-container {
         min-width: 768px;
         margin: 100px auto 100px auto;
     }
