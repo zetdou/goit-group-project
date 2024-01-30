@@ -1,50 +1,18 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
 button {
     cursor: pointer;
-    border: none;
     border-radius: 4px;
-}
-
-ul,
-ol {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-}
-
-body {
-    font-family: "Montsterrat", sans-serif;
-
+    border: none;
 }
 
 /* Blog */
+
+
 .blog-container {
     width: 320px;
     display: flex;
     flex-direction: column;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 .blog-section-title-container {
@@ -60,11 +28,9 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-right: 14px;
 }
 
 .blog-line {
-    /* min-width: 202px; */
     width: 100%;
     height: 1px;
     background: #000;
@@ -73,17 +39,13 @@ body {
 /* Pictures */
 .blog-list {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    gap: 16px;
     margin-top: 32px;
     margin-bottom: 4px;
-    /* width: calc(100% - 25px / 2); */
 }
 
-
-
 .blog-picture-visually-hidden {
-
     display: none;
 }
 
@@ -192,8 +154,9 @@ body {
 .blog-modal-wrapper {
     display: flex;
     flex-direction: column;
-    gap:8px;
+    gap: 8px;
 }
+
 .blog-modal-wrapper:first-child {
     margin-bottom: 14px;
 }
@@ -280,9 +243,11 @@ body {
     .blog-section-title {
         font-size: 44px;
     }
-    
+
     .blog-list {
         margin-bottom: 8px;
+        margin-top: 60px;
+        gap: 32px;
     }
 
     .blog-vector-container {
@@ -318,7 +283,7 @@ body {
         min-height: 511px;
         padding: 28px 16px 14px;
     }
-    
+
     .blog-modal-heading {
         font-size: 32px;
         padding-bottom: 24px;
@@ -347,7 +312,7 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-    
+
     .blog-picture-visually-hidden {
         display: flex;
     }
@@ -358,6 +323,9 @@ body {
 
     .blog-list {
         margin-bottom: 18px;
+        margin-top: 122px;
+        justify-content: space-between;
+        gap: 31px;
     }
 
     .blog-vector-container {
