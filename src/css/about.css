@@ -41,6 +41,7 @@
   line-height: 1.2;
   letter-spacing: 0.04em;
   width: 100%;
+  max-width: 288px;
 }
   
 /*tablet*/
