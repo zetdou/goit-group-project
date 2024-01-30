@@ -76,7 +76,6 @@ button {
     width: 100%;
     height: 135px;
     background: url('../images/Delivery/backgroundDelivery-mobile@1x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
-
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -139,7 +138,7 @@ button {
 }
 
 @media screen and (min-width: 1280px) {
-    .delivery-container {
+.delivery-container {
         min-width: 1280px;
         margin: 100px auto 100px auto;
     }
@@ -186,8 +185,6 @@ button {
     (min-resolution: 2dppx) {
         .delivery-background {
             background: url('../images/Delivery/backgroundDelivery-desktop@2x.jpg'), lightgray 0px -66.709px / 123.197% 177.547% no-repeat;
-
         }
-
     }
 }
