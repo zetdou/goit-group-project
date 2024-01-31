@@ -65,8 +65,7 @@
 
     .header-div{
         height: 57px;
-        max-width: 768px;
-        
+        margin-bottom: 55px;
     }
 
     .header-logo{
