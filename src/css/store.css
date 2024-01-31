@@ -90,6 +90,7 @@
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 16px;
   }
   
   .section-title {
@@ -114,6 +115,12 @@
   .store-list-item img {
     width: 344px;
     height: 399px;
+  }
+
+  .store-list {
+    column-gap: 32px;
+    gap: 40px;
+    width: 720px;
   }
 }
 
