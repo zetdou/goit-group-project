@@ -66,9 +66,9 @@
   display: none;
 }
 
-/* .store-list-item img {
+.store-list-item img {
   object-fit: cover;
-} */
+}
 
 .btn-wrapper {
   display: flex;
