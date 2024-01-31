@@ -66,6 +66,10 @@
   display: none;
 }
 
+.store-list-item img {
+  object-fit: cover;
+}
+
 .btn-wrapper {
   display: flex;
   justify-content: center;

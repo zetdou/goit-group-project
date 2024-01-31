@@ -213,6 +213,10 @@ button {
     border-color: #E74A3B;
 }
 
+#modal:valid button {
+    background: #E86F54;
+}
+
 .blog-modal-button-submit {
     display: flex;
     min-width: 100%;
