@@ -131,6 +131,7 @@
     width: 720px;
     gap: 40px;
     column-gap: 32px;
+    padding-bottom: 60px;
   }
 }
 
